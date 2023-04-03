@@ -32,7 +32,7 @@ function gotPoses(results) {
         rightWristY = results[0].pose.rightWrist.y;
         score1 = results[0].pose.keypoints[9].score;
         score2 = results[0].pose.keypoints[10].score;
-        console.log("Score of left wrist = " + score1 + ", score of right wrist = " + score2 + "left wrist x = " + leftWristX + ", left wrist y = " + leftWristY + ", right wrist x = " + rightWristX + ", right wrist y = " + rightWristY);
+        console.log("Score of left wrist = " + score1 + ", score of right wrist = " + score2 + ", left wrist x = " + leftWristX + ", left wrist y = " + leftWristY + ", right wrist x = " + rightWristX + ", right wrist y = " + rightWristY);
     };
 };
 
